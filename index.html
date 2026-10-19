@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelSearch — Tu próximo viaje empieza aquí | App Oficial para Android</title>
+  
+  <!-- Meta Descriptions & SEO -->
+  <meta name="description" content="Descubre TravelSearch, la aplicación Android definitiva para buscar y comparar vuelos, hoteles y coches de alquiler desde una sola interfaz moderna, rápida y sin registros obligatorios.">
+  <meta name="keywords" content="TravelSearch, buscar vuelos, hoteles baratos, alquiler de coches, app viajes android, vuelos baratos, apk android viajes, travelsearch.site">
+  <meta name="author" content="TravelSearch Team">
+  <link rel="canonical" href="https://travelsearch.site">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://travelsearch.site">
+  <meta property="og:title" content="TravelSearch — Tu próximo viaje empieza aquí">
+  <meta property="og:description" content="Compara vuelos, hoteles y coches de alquiler en una sola app para Android con modo Invitado sin barreras. Descarga el APK oficial.">
+  <meta property="og:image" content="https://travelsearch.site/assets/app-icon.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://travelsearch.site">
+  <meta name="twitter:title" content="TravelSearch — Aplicación Android de Viajes">
+  <meta name="twitter:description" content="Búsqueda unificada de vuelos, hoteles y alquiler de coches en Android. Descarga gratis la app en travelsearch.site.">
+  <meta name="twitter:image" content="https://travelsearch.site/assets/app-icon.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/app-icon.jpg">
+  <link rel="apple-touch-icon" href="assets/app-icon.jpg">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org SoftwareApplication Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TravelSearch",
+    "operatingSystem": "Android 8.0+",
+    "applicationCategory": "TravelApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "description": "Aplicación Android para búsqueda y comparación de vuelos, hoteles y vehículos de alquiler con modo Invitado y sincronización local.",
+    "downloadUrl": "https://travelsearch.site/download/travelsearch.apk",
+    "softwareVersion": "1.2.0"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       Site Header / Navigation Bar
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo" aria-label="TravelSearch Inicio">
+        <div class="brand-icon">
+          <img src="assets/app-icon.jpg" alt="TravelSearch Logo Icon" width="42" height="42">
+        </div>
+        <div class="brand-name">
+          <span class="title">TravelSearch</span>
+          <span class="domain-badge">travelsearch.site</span>
+        </div>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#demo" class="nav-link">Simulador</a></li>
+          <li><a href="#funciones" class="nav-link">Funciones</a></li>
+          <li><a href="#como-funciona" class="nav-link">Cómo funciona</a></li>
+          <li><a href="#capturas" class="nav-link">Pantallas</a></li>
+          <li><a href="#preguntas" class="nav-link">Preguntas</a></li>
+          <li><a href="#descargar" class="nav-link">Descargar</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#descargar" class="btn-header-apk">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.68-.05-.85.26l-1.9 3.29C14.92 8.37 13.5 8 12 8s-2.92.37-4.43 1l-1.9-3.29c-.17-.31-.56-.41-.85-.26-.3.16-.42.54-.26.85L6.4 9.48C3.3 11.25 1.28 14.44 1 18.2h22c-.28-3.76-2.3-6.95-5.4-8.72zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
+          </svg>
+          <span>Descargar APK</span>
+        </a>
+
+        <button class="mobile-menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       Hero Section
+       ======================================================================== -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Versión 1.2.0 Oficial • Android 8.0+</span>
+        </div>
+
+        <h1 class="hero-title">
+          Tu próximo viaje empieza con <span class="highlight">TravelSearch</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Descubre una forma más sencilla de buscar vuelos, hoteles y coches de alquiler desde una sola aplicación. Encuentra opciones para tu próximo viaje con TravelSearch.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#descargar" class="btn-primary" id="btnHeroDownload">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>Descargar para Android</span>
+          </a>
+
+          <a href="#funciones" class="btn-secondary">
+            <span>Descubrir funciones</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Modo Invitado sin registro inicial</span>
+          </div>
+
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>100% Gratuito y sin anuncios</span>
+          </div>
+
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Datos seguros en tu dispositivo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Smartphone Mockup -->
+      <div class="hero-visual">
+        <!-- Floating badge 1 -->
+        <div class="floating-badge badge-top-right">
+          <div class="badge-icon hotel">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 21h18M3 7v14M21 7v14M6 11h4M6 15h4M14 11h4M14 15h4M9 3h6v4H9z"/>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <div class="title">Hotel Reservado</div>
+            <div class="desc">París • 118 € / noche</div>
+          </div>
+        </div>
+
+        <!-- Phone Device Frame -->
+        <div class="phone-mockup-wrap">
+          <div class="phone-screen">
+            <div class="phone-notch"></div>
+            
+            <div class="phone-header">
+              <div class="phone-app-brand">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color:#38bdf8;">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>TravelSearch</span>
+              </div>
+              <div class="phone-user-chip">
+                <span>Modo Invitado</span>
+              </div>
+            </div>
+
+            <div class="phone-tabs">
+              <div class="phone-tab active">Vuelos</div>
+              <div class="phone-tab">Hoteles</div>
+              <div class="phone-tab">Coches</div>
+            </div>
+
+            <div class="phone-body">
+              <!-- Route mini card -->
+              <div class="mini-flight-card">
+                <div class="mini-card-head">
+                  <span class="mini-airline-tag">Iberia Express</span>
+                  <span style="color:#10b981;font-weight:700;">Directo</span>
+                </div>
+                <div class="mini-route">
+                  <div class="mini-city-code">MAD</div>
+                  <div class="mini-route-arrow">
+                    <span>2h 10m</span>
+                    <span style="font-size:12px;">→</span>
+                  </div>
+                  <div class="mini-city-code">CDG</div>
+                </div>
+                <div class="mini-card-foot">
+                  <span class="mini-price">84 €</span>
+                  <span class="mini-btn-book">Reservar</span>
+                </div>
+              </div>
+
+              <!-- Second mini card -->
+              <div class="mini-flight-card">
+                <div class="mini-card-head">
+                  <span class="mini-airline-tag">Air France</span>
+                  <span style="color:#10b981;font-weight:700;">Directo</span>
+                </div>
+                <div class="mini-route">
+                  <div class="mini-city-code">MAD</div>
+                  <div class="mini-route-arrow">
+                    <span>2h 15m</span>
+                    <span style="font-size:12px;">→</span>
+                  </div>
+                  <div class="mini-city-code">ORY</div>
+                </div>
+                <div class="mini-card-foot">
+                  <span class="mini-price">96 €</span>
+                  <span class="mini-btn-book">Reservar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating badge 2 -->
+        <div class="floating-badge badge-bottom-left">
+          <div class="badge-icon guest">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <div class="title">Modo Invitado</div>
+            <div class="desc">Exploración 100% libre</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Interactive Search Simulator Demo
+       ======================================================================== -->
+  <section class="search-demo-section" id="demo">
+    <div class="container">
+      <div class="search-demo-card">
+        <div class="demo-header">
+          <div class="demo-title-group">
+            <h3>Prueba el buscador interactivo de TravelSearch</h3>
+            <p>Descubre en tiempo real cómo la aplicación organiza y filtra opciones al instante.</p>
+          </div>
+
+          <div class="demo-type-tabs" role="tablist">
+            <button class="demo-type-btn active" data-type="flights" role="tab" aria-selected="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+              <span>Vuelos</span>
+            </button>
+            <button class="demo-type-btn" data-type="hotels" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z"/>
+              </svg>
+              <span>Hoteles</span>
+            </button>
+            <button class="demo-type-btn" data-type="cars" role="tab" aria-selected="false">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+              </svg>
+              <span>Coches</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="demo-inputs-grid">
+          <div class="input-box">
+            <label id="labelOrigin">Origen</label>
+            <input type="text" id="inputOrigin" value="Madrid (MAD)">
+          </div>
+
+          <div class="input-box">
+            <label id="labelDest">Destino</label>
+            <input type="text" id="inputDest" value="París (CDG)">
+          </div>
+
+          <div class="input-box">
+            <label>Fechas</label>
+            <input type="text" value="15 Oct - 22 Oct">
+          </div>
+
+          <div class="input-box">
+            <label>Viajeros / Clase</label>
+            <select>
+              <option>1 Adulto • Turista</option>
+              <option>2 Adultos • Turista</option>
+              <option>2 Adultos • Business</option>
+            </select>
+          </div>
+
+          <button class="btn-demo-search" id="btnDemoSearch">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <span>Buscar</span>
+          </button>
+        </div>
+
+        <div class="demo-results-preview">
+          <div class="results-status-bar">
+            <span>Resultados simulados para la ruta seleccionada</span>
+            <strong id="demoResultsCount">3 opciones encontradas</strong>
+          </div>
+
+          <div class="demo-cards-container" id="demoCardsContainer">
+            <!-- Dynamic cards injected via JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Presentation Section (Value Proposition)
+       ======================================================================== -->
+  <section class="presentation-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Experiencia Unificada</span>
+        <h2 class="section-title">Todo lo que necesitas para planificar tu viaje</h2>
+        <p class="section-desc">
+          TravelSearch reúne herramientas de búsqueda de viajes en una interfaz limpia y eficiente, diseñada específicamente para facilitar la exploración y organización de tus próximas escapadas.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon blue">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+            </svg>
+          </div>
+          <h4>Búsqueda Centralizada</h4>
+          <p>
+            No saltes entre docenas de pestañas y aplicaciones. Compara vuelos, alojamientos y alquiler de coches en una sola pantalla con filtros coordinados.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon teal">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <line x1="20" y1="8" x2="20" y2="14"></line>
+              <line x1="23" y1="11" x2="17" y2="11"></line>
+            </svg>
+          </div>
+          <h4>Modo Invitado Total</h4>
+          <p>
+            Navega, consulta precios y guarda tus favoritos sin necesidad de crear una cuenta primero. Regístrate solo cuando decidas reservar tu viaje.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon amber">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h4>Rápida y Nativa</h4>
+          <p>
+            Desarrollada en Kotlin con Jetpack Compose para Android. Interfaz fluida a 120 FPS, animaciones nativas y consumo mínimo de batería.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon emerald">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h4>Privacidad Garantizada</h4>
+          <p>
+            Tus búsquedas recientes y favoritos se almacenan localmente en tu teléfono con Room Database y DataStore cifrado. Sin rastreos invasivos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Features Section (6 Major Features)
+       ======================================================================== -->
+  <section class="features-section" id="funciones">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Funcionalidades Reales</span>
+        <h2 class="section-title">Diseñada para cada momento de tu viaje</h2>
+        <p class="section-desc">
+          Explora todas las capacidades que TravelSearch pone al alcance de tu mano en tu teléfono Android.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1: Flights -->
+        <div class="feature-card flights">
+          <div class="feature-top">
+            <div class="feature-icon-badge">✈</div>
+            <span class="feature-tag">Vuelos Globales</span>
+          </div>
+          <h3>1. Búsqueda de Vuelos</h3>
+          <p>
+            Busca trayectos de ida y vuelta o solo ida entre aeropuertos con códigos IATA oficiales. Compara aerolíneas, filtra por número de escalas, consulta horarios de despegue y aterrizaje y elige la clase de cabina ideal para tu presupuesto.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Rutas directas y con escala detalladas</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Filtro por aerolínea y franja horaria</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2: Hotels -->
+        <div class="feature-card hotels">
+          <div class="feature-top">
+            <div class="feature-icon-badge">🏨</div>
+            <span class="feature-tag">Alojamientos</span>
+          </div>
+          <h3>2. Búsqueda de Hoteles</h3>
+          <p>
+            Explora hoteles, resorts y apartamentos en tus ciudades de destino. Compara precios por noche, categoría por estrellas, servicios destacados como wifi, piscina o desayuno, y consulta reseñas y calificaciones de otros viajeros.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Filtro por estrellas (3★, 4★, 5★)</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Condiciones de cancelación transparentes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3: Cars -->
+        <div class="feature-card cars">
+          <div class="feature-top">
+            <div class="feature-icon-badge">🚗</div>
+            <span class="feature-tag">Alquiler</span>
+          </div>
+          <h3>3. Alquiler de Coches</h3>
+          <p>
+            Encuentra el vehículo perfecto para tus recorridos por carretera. Compara utilitarios urbanos de bajo consumo, compactos familiares, SUVs espaciosos y modelos premium con transmisión manual o automática.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Puntos de recogida en aeropuerto y ciudad</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Kilometraje ilimitado y coberturas claras</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 4: Favorites -->
+        <div class="feature-card favorites">
+          <div class="feature-top">
+            <div class="feature-icon-badge">♥</div>
+            <span class="feature-tag">Guardado Rápido</span>
+          </div>
+          <h3>4. Favoritos y Listas</h3>
+          <p>
+            Guarda cualquier vuelo, hotel o coche con un simple toque en el icono de corazón. Tus opciones favoritas permanecen sincronizadas en tu dispositivo para que puedas revisarlas y compararlas incluso sin conexión a internet.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Pestañas para vuelos, hoteles y coches</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Acceso directo sin esperas ni recargas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 5: Profile & Guest Mode -->
+        <div class="feature-card profile">
+          <div class="feature-top">
+            <div class="feature-icon-badge">👤</div>
+            <span class="feature-tag">Modo Invitado / Registrado</span>
+          </div>
+          <h3>5. Perfil de Usuario Inteligente</h3>
+          <p>
+            Comienza explorando con un perfil de Invitado libre de barreras. Cuando decidas realizar una reserva, un formulario rápido crea tu perfil local al instante, permitiéndote gestionar tu sección "Mis Viajes" y acumular puntos.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Sin contraseñas complicadas ni bloqueos</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Historial de billetes y reservas confirmadas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 6: Settings & Customization -->
+        <div class="feature-card settings">
+          <div class="feature-top">
+            <div class="feature-icon-badge">⚙</div>
+            <span class="feature-tag">Ajustes</span>
+          </div>
+          <h3>6. Configuración a tu Medida</h3>
+          <p>
+            Personaliza la aplicación según tus preferencias de viaje. Cambia entre divisa Euro (€), Dólar ($), Libra (£) o Yen (¥), activa el tema oscuro para cuidar tu vista y define tu aeropuerto de salida habitual.
+          </p>
+          <div class="feature-preview">
+            <div class="preview-list">
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Selector de multidivisa en tiempo real</span>
+              </div>
+              <div class="preview-list-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Tema Claro, Oscuro o Automático</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       How It Works Section (3 Graphic Steps)
+       ======================================================================== -->
+  <section class="how-it-works-section" id="como-funciona">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Simplicidad en 3 pasos</span>
+        <h2 class="section-title">Cómo funciona TravelSearch</h2>
+        <p class="section-desc">
+          Planificar tu próxima escapada nunca había sido tan ágil, cómodo e intuitivo.
+        </p>
+      </div>
+
+      <div class="steps-timeline">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Busca</h3>
+          <p>
+            Introduce los datos de tu viaje: lugar de salida, destino soñado, fechas y número de acompañantes. TravelSearch procesa y organiza las mejores opciones en cuestión de segundos.
+          </p>
+          <div class="step-mini-graphic">
+            <span style="font-size:0.85rem;font-weight:700;color:#0284c7;">🔍 Madrid (MAD) → París (CDG)</span>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Compara</h3>
+          <p>
+            Consulta alternativas claras con precios transparentes. Filtra por aerolínea, horario, número de estrellas o categoría de vehículo sin letra pequeña ni cargos ocultos.
+          </p>
+          <div class="step-mini-graphic">
+            <span style="font-size:0.85rem;font-weight:700;color:#0d9488;">📊 Comparador en cuadrícula nativa</span>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Organiza</h3>
+          <p>
+            Guarda opciones en tus Favoritos para verlas más tarde o confirma tu reserva creando tu perfil en un solo paso. Todos tus billetes quedan guardados en tu historial local.
+          </p>
+          <div class="step-mini-graphic">
+            <span style="font-size:0.85rem;font-weight:700;color:#0f172a;">💼 Mis Viajes & Confirmación local</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       App Screenshots & Interactive Showcase Section
+       ======================================================================== -->
+  <section class="showcase-section" id="capturas">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Vistas de la Aplicación</span>
+        <h2 class="section-title">Una interfaz Android pensada para ti</h2>
+        <p class="section-desc">
+          Diseñada siguiendo las directrices de Material Design 3 y Jetpack Compose para ofrecer una navegación moderna y fluida.
+        </p>
+      </div>
+
+      <div class="showcase-tabs" role="tablist">
+        <button class="showcase-tab-btn active" data-screen="vuelos">Vuelos</button>
+        <button class="showcase-tab-btn" data-screen="hoteles">Hoteles</button>
+        <button class="showcase-tab-btn" data-screen="coches">Coches</button>
+        <button class="showcase-tab-btn" data-screen="perfil">Perfil y Viajes</button>
+        <button class="showcase-tab-btn" data-screen="ajustes">Ajustes</button>
+      </div>
+
+      <div class="showcase-display">
+        <div class="showcase-info">
+          <h3 id="showcaseTitle">Búsqueda de Vuelos Completa y Precisa</h3>
+          <p id="showcaseDesc">
+            Explora aeropuertos de todo el mundo con códigos IATA, selecciona fechas de ida y vuelta o solo ida, y compara aerolíneas en una cuadrícula limpia diseñada con Jetpack Compose.
+          </p>
+
+          <div class="showcase-specs" id="showcaseSpecs">
+            <div class="spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Filtro por escalas: Vuelos directos, 1 escala o múltiples</span>
+            </div>
+            <div class="spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Selección de cabina: Turista, Premium Economy, Business y Primera</span>
+            </div>
+            <div class="spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Detalles de tarifas, equipaje incluido y políticas de cancelación</span>
+            </div>
+            <div class="spec-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Guardado instantáneo en Favoritos con un solo toque</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-mockup">
+          <div class="mockup-frame">
+            <div class="mockup-inner">
+              <div class="mockup-status-bar">
+                <span>09:41</span>
+                <span id="mockupScreenBadge">Vuelos • Madrid → París</span>
+                <span>LTE 100%</span>
+              </div>
+              <div class="mockup-screen-content" id="mockupContentArea">
+                <div style="background:#0284c7;color:#fff;padding:12px;border-radius:12px;margin-bottom:12px;">
+                  <div style="font-size:0.75rem;opacity:0.9;">Vuelo Seleccionado</div>
+                  <div style="font-size:1.15rem;font-weight:800;">MAD → CDG • 84 €</div>
+                  <div style="font-size:0.75rem;">Iberia Express • Directo • 2h 10m</div>
+                </div>
+                <div style="background:#fff;border:1px solid #e2e8f0;padding:12px;border-radius:12px;margin-bottom:8px;">
+                  <div style="font-weight:700;font-size:0.85rem;color:#0f172a;">Horario de salida</div>
+                  <div style="font-size:0.8rem;color:#64748b;">08:45 Barajas T4 → 10:55 Charles de Gaulle T2</div>
+                </div>
+                <div style="background:#f1f5f9;border-radius:8px;padding:8px 12px;font-size:0.75rem;color:#0369a1;font-weight:600;">
+                  ✓ Equipaje de mano incluido • Selección de asiento
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Installation 3-Steps Guide
+       ======================================================================== -->
+  <section class="install-guide-section">
+    <div class="container">
+      <div class="guide-box">
+        <h4 class="guide-title">Cómo instalar TravelSearch en tu teléfono Android</h4>
+        
+        <div class="guide-steps-row">
+          <div class="guide-step">
+            <div class="guide-step-badge">1</div>
+            <div class="guide-step-text">
+              <h5>Descarga el archivo APK</h5>
+              <p>Pulsa el botón de descarga para obtener directamente el instalador oficial <strong>travelsearch.apk</strong> en tu móvil.</p>
+            </div>
+          </div>
+
+          <div class="guide-step">
+            <div class="guide-step-badge">2</div>
+            <div class="guide-step-text">
+              <h5>Habilita la instalación</h5>
+              <p>Si es la primera vez que instalas un APK, pulsa "Ajustes" y activa "Permitir desde esta fuente" en tu navegador o explorador.</p>
+            </div>
+          </div>
+
+          <div class="guide-step">
+            <div class="guide-step-badge">3</div>
+            <div class="guide-step-text">
+              <h5>Abre e instala</h5>
+              <p>Pulsa en el archivo descargado para completar la instalación. ¡Abre TravelSearch y empieza a buscar tu próximo viaje!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Download Section (APK CTA & QR Code)
+       ======================================================================== -->
+  <section class="download-section" id="descargar">
+    <div class="container download-grid">
+      <div class="download-content">
+        <h2>Descarga TravelSearch para Android</h2>
+        <p>
+          Obtén el instalador APK oficial desde nuestro dominio <strong>travelsearch.site</strong>. Disfruta de la mejor experiencia de búsqueda de viajes en tu smartphone o tablet sin registros previos.
+        </p>
+
+        <div class="download-buttons">
+          <a href="download/travelsearch.apk" download="travelsearch.apk" class="btn-download-apk" id="btnDownloadApk">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>Descargar APK (v1.2.0)</span>
+          </a>
+
+          <button class="btn-copy-link" id="btnCopyLink" aria-label="Copiar enlace de descarga">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span>Copiar Enlace</span>
+          </button>
+        </div>
+
+        <div class="tech-spec-bar">
+          <div class="tech-spec-item">Versión: <strong>1.2.0 Release</strong></div>
+          <div class="tech-spec-item">Tamaño: <strong>~23 MB</strong></div>
+          <div class="tech-spec-item">Requisitos: <strong>Android 8.0 (API 26) o superior</strong></div>
+          <div class="tech-spec-item">Seguridad: <strong>SHA-256 Verificado</strong></div>
+        </div>
+      </div>
+
+      <div class="download-qr-card">
+        <div class="qr-code-wrapper">
+          <!-- Stylized Vector QR Code pointing to travelsearch.site/download/travelsearch.apk -->
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="200" height="200" fill="#ffffff"/>
+            <!-- Top Left Finder Pattern -->
+            <rect x="20" y="20" width="50" height="50" fill="#0f172a" rx="6"/>
+            <rect x="28" y="28" width="34" height="34" fill="#ffffff" rx="4"/>
+            <rect x="36" y="36" width="18" height="18" fill="#0284c7" rx="3"/>
+
+            <!-- Top Right Finder Pattern -->
+            <rect x="130" y="20" width="50" height="50" fill="#0f172a" rx="6"/>
+            <rect x="138" y="28" width="34" height="34" fill="#ffffff" rx="4"/>
+            <rect x="146" y="36" width="18" height="18" fill="#0284c7" rx="3"/>
+
+            <!-- Bottom Left Finder Pattern -->
+            <rect x="20" y="130" width="50" height="50" fill="#0f172a" rx="6"/>
+            <rect x="28" y="138" width="34" height="34" fill="#ffffff" rx="4"/>
+            <rect x="36" y="146" width="18" height="18" fill="#0284c7" rx="3"/>
+
+            <!-- Data Dots Pattern (Simulating QR Code Data) -->
+            <rect x="80" y="24" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="100" y="24" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="80" y="44" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="104" y="44" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="88" y="64" width="12" height="12" fill="#0284c7" rx="2"/>
+
+            <rect x="24" y="84" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="44" y="84" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="64" y="84" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="84" y="84" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="104" y="84" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="124" y="84" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="144" y="84" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="164" y="84" width="12" height="12" fill="#0f172a" rx="2"/>
+
+            <rect x="84" y="104" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="104" y="104" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="124" y="104" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="144" y="104" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="164" y="104" width="12" height="12" fill="#0284c7" rx="2"/>
+
+            <rect x="80" y="124" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="104" y="124" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="124" y="124" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="150" y="124" width="12" height="12" fill="#0284c7" rx="2"/>
+
+            <rect x="84" y="144" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="104" y="144" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="134" y="144" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="164" y="144" width="12" height="12" fill="#0f172a" rx="2"/>
+
+            <rect x="84" y="164" width="12" height="12" fill="#0f172a" rx="2"/>
+            <rect x="114" y="164" width="12" height="12" fill="#0284c7" rx="2"/>
+            <rect x="144" y="164" width="12" height="12" fill="#0f172a" rx="2"/>
+
+            <!-- Center Brand Dot -->
+            <circle cx="100" cy="100" r="10" fill="#0284c7"/>
+          </svg>
+        </div>
+        <div class="qr-label">Escanea con tu cámara</div>
+        <div class="qr-sublabel">Descarga directa en tu smartphone</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FAQ Section
+       ======================================================================== -->
+  <section class="faq-section" id="preguntas">
+    <div class="container faq-container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Dudas frecuentes</span>
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <p class="section-desc">
+          Todo lo que necesitas saber acerca de TravelSearch y su funcionamiento.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Es TravelSearch completamente gratuita?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Sí, al 100%. TravelSearch se puede descargar y utilizar de forma totalmente gratuita, sin cargos de suscripción, sin comisiones adicionales ocultas y sin anuncios intrusivos en las búsquedas.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Necesito crear una cuenta para empezar a buscar viajes?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>No. La aplicación incorpora el modo Invitado como estado inicial predeterminado. Puedes buscar vuelos, consultar hoteles, filtrar coches y guardar opciones en tus favoritos libremente. El registro solo se solicitará cuando decidas realizar una reserva para vincular tus billetes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Cómo instalo el archivo APK en mi móvil Android?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Simplemente pulsa el botón «Descargar APK». Cuando finalice la descarga, abre el archivo. Si Android te muestra una advertencia sobre «Instalar aplicaciones de fuentes desconocidas», entra en los ajustes que te indica la pantalla y activa el permiso para tu navegador. Después pulsa «Instalar».</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Dónde se almacenan mis datos y búsquedas favoritas?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Tus datos se guardan de forma 100% local en tu dispositivo utilizando Room Database y DataStore seguro. TravelSearch respeta tu privacidad y no vende ni comparte tus búsquedas personales.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Qué versiones de Android son compatibles?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>TravelSearch es compatible con Android 8.0 (Oreo, nivel de API 26) y cualquier versión posterior, incluyendo Android 9, 10, 11, 12, 13, 14 y 15 en teléfonos y tablets.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Es seguro descargar el APK desde https://travelsearch.site?</span>
+            <div class="faq-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Nuestro dominio oficial https://travelsearch.site cuenta con certificado SSL cifrado y el archivo APK distribuido está compilado y firmado directamente con firma criptográfica de seguridad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">
+              <img src="assets/app-icon.jpg" alt="TravelSearch Logo" width="42" height="42">
+            </div>
+            <div class="brand-name">
+              <span class="title">TravelSearch</span>
+            </div>
+          </div>
+          <p>
+            La plataforma móvil todo en uno para buscar y comparar vuelos, hoteles y vehículos de alquiler con la máxima simplicidad y rapidez.
+          </p>
+          <div class="domain-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span>Dominio oficial: travelsearch.site</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navegación</h5>
+          <ul class="footer-links">
+            <li><a href="#inicio" class="footer-link">Inicio</a></li>
+            <li><a href="#demo" class="footer-link">Simulador en vivo</a></li>
+            <li><a href="#funciones" class="footer-link">Funciones</a></li>
+            <li><a href="#como-funciona" class="footer-link">Cómo funciona</a></li>
+            <li><a href="#capturas" class="footer-link">Vistas de pantalla</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Aplicación</h5>
+          <ul class="footer-links">
+            <li><a href="#descargar" class="footer-link">Descargar APK</a></li>
+            <li><a href="#preguntas" class="footer-link">Preguntas Frecuentes</a></li>
+            <li><a href="#funciones" class="footer-link">Modo Invitado</a></li>
+            <li><a href="#descargar" class="footer-link">Requisitos del sistema</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Tecnología</h5>
+          <ul class="footer-links">
+            <li><span class="footer-link" style="cursor:default;">Kotlin 2.0</span></li>
+            <li><span class="footer-link" style="cursor:default;">Jetpack Compose M3</span></li>
+            <li><span class="footer-link" style="cursor:default;">Room Database</span></li>
+            <li><span class="footer-link" style="cursor:default;">DataStore Preferences</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 TravelSearch. Todos los derechos reservados. Sitio oficial: <a href="https://travelsearch.site">https://travelsearch.site</a>
+        </div>
+        <div>
+          Construida con Kotlin &amp; Jetpack Compose para Android.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
